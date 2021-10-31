@@ -1,10 +1,9 @@
 TODO Checklist
 
 [] CSS Lint
-[] JS Lint
-[] A11y Automation
+[X] JS Lint
+[X] A11y Automation
 [] point to mosherdesign.com
 [] dark mode support
-[] project template 
-[] back to top 
-
+[] project template
+[] back to top

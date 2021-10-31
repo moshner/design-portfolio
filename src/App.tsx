@@ -26,30 +26,30 @@ const App: VFC = () => (
         </header>
         <Switch>
             <Route path="/" exact>
-                <ProjectOverviewCard
-                    name="Project Name"
-                    link="//google.com"
-                    linkText="google"
-                    imgAlt="A cute kitten"
-                    imgSrc="//placekitten.com/800/601"
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
-                />
-                <ProjectOverviewCard
-                    name="Project Name"
-                    link="//google.com"
-                    linkText="google"
-                    imgAlt="A cute kitten"
-                    imgSrc="//placekitten.com/800/601"
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
-                />
-                <ProjectOverviewCard
-                    name="Project Name"
-                    link="//google.com"
-                    linkText="google"
-                    imgAlt="A cute kitten"
-                    imgSrc="//placekitten.com/800/601"
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
-                />
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut soluta aperiam obcaecati sed aspernatur odio eveniet
+                    odit hic nemo ipsa. Eligendi magnam ex optio veritatis nam
+                    veniam expedita suscipit facilis.
+                </div>
+                <div>
+                    <ProjectOverviewCard
+                        name="Project Name"
+                        link="//google.com"
+                        linkText="google"
+                        imgAlt="A cute kitten"
+                        imgSrc="//placekitten.com/1600/900"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
+                    />
+                    <ProjectOverviewCard
+                        name="Project Name"
+                        link="//google.com"
+                        linkText="google"
+                        imgAlt="A cute kitten"
+                        imgSrc="//placekitten.com/800/601"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
+                    />
+                </div>
             </Route>
         </Switch>
         <footer />

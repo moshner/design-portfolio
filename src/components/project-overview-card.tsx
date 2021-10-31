@@ -18,9 +18,13 @@ const ProjectOverviewCard: VFC<ComponentProps> = (props: ComponentProps) => {
     return (
         <section className="project-overview">
             <h1 className="project-overview__name">{name}</h1>
-            <div className="project-overview__image-box"><img className="image-box__img" src={imgSrc} alt={imgAlt} /></div>
-            <p className="project-overview__text">{text}</p>
-            <Link className="project-overview__button" to={link}>{linkText}</Link>
+            <div className="project-overview__body-wrap">
+                <div className="project-overview__image-box"><img className="image-box__img" src={imgSrc} alt={imgAlt} /></div>
+                <div className="project-overview__description">
+                    <p className="project-overview__text">{text}</p>
+                    <Link className="project-overview__button" to={link}>{linkText}</Link>
+                </div>
+            </div>
         </section>
     );
 };
