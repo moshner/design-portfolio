@@ -5,6 +5,10 @@
   width: 100%; 
 }
 
+.project-overview__name {
+  font-size: 3rem;
+}
+
 .project-overview__button {
   border: 1px solid blue;
   display: inline-block;
