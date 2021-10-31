@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -11,17 +11,16 @@ import {
 function App() {
   return (
     <Router>
-      <header>Menu <Link to="/">Home</Link> | <Link to="/project1">Foo</Link> | <a href="https://nick.mosher.me">About Nick</a></header>
+      <header><img src="/monogram.png" /><Link to="/">Home</Link> | <Link to="/project1">Foo</Link> | <a href="https://nick.mosher.me">About Nick</a></header>
       <Switch>
         <Route path="/" exact>
-          <section><div>Image box</div><Link to="/project1">Foo</Link></section>
-          <section>Item 2</section>
-          <section>Item 3</section>
-        </Route>
-        <Route path="/project1">
-          <section><div>Image boxes</div></section>
-          <section>Item 2</section>
-          <section>Item 3</section>
+          <section className="project-overview">
+              <div className="project-overview__image-box"><img className="image-box__img" src="//placekitten.com/800/600" /></div>
+              <p className="project-overview__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum.</p>
+              <Link className="project-overview__button" to="/project1">Foo</Link>
+          </section>
+          <section className="project-overview">Item 2</section>
+          <section className="project-overview">Item 3</section>
         </Route>
       </Switch>
       <footer></footer>
