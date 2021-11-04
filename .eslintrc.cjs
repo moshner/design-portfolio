@@ -36,5 +36,6 @@ module.exports = {
         // These aren't needed with React 17
         'react/jsx-uses-react': 'off',
         'react/react-in-jsx-scope': 'off',
+        'object-curly-spacing': 'off',
     },
 };
