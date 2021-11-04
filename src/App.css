@@ -1,3 +1,16 @@
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:visited {
+  color: var(--secondary) * 20%;
+}
+
 .project-overview {
   border: 1px solid black;
   margin: 1rem 0;
@@ -6,9 +19,10 @@
 }
 
 .project-overview__name {
-  font-size: 2.4rem;
+  font-size: var(--x-large);
   margin: 0 0 1rem 0;
 }
+
 .project-overview__body-wrap {
   display: flex;
   flex-direction: column;
@@ -24,10 +38,24 @@
 }
 
 .project-overview__button {
-  border: 1px solid blue;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  color: var(--background);
   display: inline-block;
+  font-weight: 500;
   padding: .5em 1em;
+  text-decoration: none;
   width: auto;
+}
+
+.project-overview__button:active,
+.project-overview__button:focus,
+.project-overview__button:hover,
+.project-overview__button:visited {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: var(--inverse-text-color);
 }
 
 .project-overview__image-box {

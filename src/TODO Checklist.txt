@@ -3,7 +3,11 @@ TODO Checklist
 [] CSS Lint
 [X] JS Lint
 [X] A11y Automation
+[] 16px font
+[] color/brand
 [] point to mosherdesign.com
 [] dark mode support
 [] project template
 [] back to top
+[] Replace noscript with barebones verison of portfolio
+[] clean up compiler warnings

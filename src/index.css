@@ -3,7 +3,7 @@
 html, body, div, form, fieldset, legend, label
 {
  margin: 0;
- padding: 0; 
+ padding: 0;
 }
 
 table
@@ -32,14 +32,52 @@ img { border: 0; }
 body {
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 1em;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
+  font-size: var(--medium);
+}
+
+/* Font sizes 5, 7, 9, 12, 16, 21, 28, 37, 50, 67, 83 https://www.lambdatest.com/blog/guide-to-css-variables-with-examples/ */
+* {
+  --xxx-small: 5px;
+  --xx-small: 7px;
+  --x-small: 9px;
+  --small: 12px;
+  --medium: 16px;
+  --large: 21px;
+  --x-large: 28px;
+  --xx-large: 37px;
+  --xxx-large: 50px;
+  --xxxx-large: 67px;
+  --xxxxx-large: 83px
+}
+
+/* Colors */
+* {
+  --primary: #4b2f86;
+  --secondary: #428086;
+  --tertiary: #E81152;
+  --background: #ffffff;
+  --text-color: #222624;
+  --inverse-text-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    --primary: #5ea8af;
+    --secondary: #8666C9;
+    --tertiary: #f89fba;
+    --background: #19161f;
+    --text-color: #adaaa7;
+    --inverse-text-color: #0A0909;
+  }
 }
