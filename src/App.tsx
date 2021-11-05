@@ -3,6 +3,7 @@ import ProjectOverviewCard from './components/project-overview-card';
 // eslint-disable-next-line import/no-unassigned-import
 import './App.css';
 import logo from './monogram.svg';
+import logoDark from './monogram-dark.svg';
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,7 +16,13 @@ const App: VFC = () => (
     <Router>
         <header className="site-header">
             <Link to="/">
-                <img src={logo} alt="NM" className="site-header__logo" />
+                <picture>
+                    <source
+                        srcSet={logoDark}
+                        media="(prefers-color-scheme: dark"
+                    />
+                    <img src={logo} alt="NM" className="site-header__logo" />
+                </picture>
             </Link>
             <nav>
                 <Link to="/">Projects</Link>
