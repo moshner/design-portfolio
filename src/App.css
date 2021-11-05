@@ -23,9 +23,6 @@ a:visited {
 }
 
 .site-header__logo {
-  filter: brightness(0);
-  flex-grow: 50px;
-  flex-shrink: 50px;
   max-height: 32px;
 }
 
