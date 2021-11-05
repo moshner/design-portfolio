@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectOverviewCard from './components/project-overview-card';
 // eslint-disable-next-line import/no-unassigned-import
 import './App.css';
+import logo from './monogram.svg';
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,7 +15,7 @@ const App: VFC = () => (
     <Router>
         <header className="site-header">
             <Link to="/">
-                <img src="/monogram.png" alt="NM" className="site-header__logo" />
+                <img src={logo} alt="NM" className="site-header__logo" />
             </Link>
             <nav>
                 <Link to="/">Projects</Link>

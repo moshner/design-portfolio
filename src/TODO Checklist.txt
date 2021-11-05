@@ -11,3 +11,4 @@ TODO Checklist
 [] back to top
 [] Replace noscript with barebones verison of portfolio
 [] clean up compiler warnings
+[] write new readme file
