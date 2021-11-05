@@ -13,13 +13,15 @@ import type { VFC } from 'react';
 const App: VFC = () => (
     <Router>
         <header className="site-header">
-            <img src="/monogram.png" alt="NM" className="site-header__logo" />
+            <Link to="/">
+                <img src="/monogram.png" alt="NM" className="site-header__logo" />
+            </Link>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/">Projects</Link>
                 {' '}
                 |
                 {' '}
-                <Link to="/project1">Foo</Link>
+                <Link to="/project1">Resume</Link>
                 {' '}
                 |
                 {' '}
