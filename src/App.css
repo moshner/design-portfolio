@@ -11,6 +11,29 @@ a:visited {
   color: var(--secondary) * 20%;
 }
 
+.site-header {
+  background-color: var(--secondary);
+  color: var(--inverse-text-color);
+  padding: var(--small);
+  margin-bottom: var(--small);
+  margin-top: -1rem;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.site-header__logo {
+  filter: brightness(0);
+}
+
+.site-header nav {
+  text-align: right;
+}
+
+.site-header a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
 .project-overview {
   border: 1px solid black;
   margin: 1rem 0;

@@ -12,17 +12,19 @@ import type { VFC } from 'react';
 
 const App: VFC = () => (
     <Router>
-        <header>
-            <img src="/monogram.png" alt="NM" />
-            <Link to="/">Home</Link>
-            {' '}
-            |
-            {' '}
-            <Link to="/project1">Foo</Link>
-            {' '}
-            |
-            {' '}
-            <a href="https://nick.mosher.me">About Nick</a>
+        <header className="site-header">
+            <img src="/monogram.png" alt="NM" className="site-header__logo" />
+            <nav>
+                <Link to="/">Home</Link>
+                {' '}
+                |
+                {' '}
+                <Link to="/project1">Foo</Link>
+                {' '}
+                |
+                {' '}
+                <a href="https://nick.mosher.me">About Nick</a>
+            </nav>
         </header>
         <Switch>
             <Route path="/" exact>
