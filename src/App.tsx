@@ -72,7 +72,20 @@ const App: VFC = () => (
                 </div>
             </Route>
         </Switch>
-        <footer />
+        <footer className="site-footer">
+            <h1 className="site-footer__title">Contact Info</h1>
+            <p>
+                <a href="mailto:nick@mosher.me">nick@mosher.me</a>
+                <br />
+                <a href="tel:785-813-1246">785-813-1246</a>
+                <br />
+            </p>
+            <p>
+                Made with React |
+                {' '}
+                <a href="https://github.com/moshner/design-portfolio">github repo</a>
+            </p>
+        </footer>
     </Router>
 );
 
