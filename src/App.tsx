@@ -80,7 +80,6 @@ const App: VFC = () => (
             </Route>
         </Switch>
         <footer className="site-footer">
-            <h1 className="site-footer__title">Contact Info</h1>
             <p>
                 <a href="mailto:nick@mosher.me">nick@mosher.me</a>
                 <br />

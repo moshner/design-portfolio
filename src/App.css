@@ -142,11 +142,6 @@ h3 {
   text-align: center;
 }
 
-.site-footer__title {
-  font-size: var(--large);
-  color: var(--inverse-text-color);
-}
-
 .site-footer a {
   color: var(--inverse-text-color);
 }
