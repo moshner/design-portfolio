@@ -32,10 +32,24 @@ const App: VFC = () => (
         <Switch>
             <Route path="/" exact>
                 <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ut soluta aperiam obcaecati sed aspernatur odio eveniet
-                    odit hic nemo ipsa. Eligendi magnam ex optio veritatis nam
-                    veniam expedita suscipit facilis.
+                    <h1>About Me</h1>
+                    <p>
+                        Hi, my name is
+                        {' '}
+                        <b>Nick Mosher</b>
+                        {' '}
+                        . I&apos;m a
+                        {' '}
+                        <b>Senior User Experience</b>
+                        {' '}
+                        designer, futurist, innovator, husband, and father. This
+                        is a small sample of my work as a design, researcher, and
+                        innovator. Let me know if you have any questions:
+                        {' '}
+                        <a href="mailto:nick@mosher.me">nick@mosher.me</a>
+                        {''}
+                        .
+                    </p>
                 </div>
                 <div>
                     <ProjectOverviewCard
