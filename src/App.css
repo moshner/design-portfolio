@@ -4,11 +4,29 @@ body {
 }
 
 a {
-  color: var(--secondary);
+  color: var(--text-link);
 }
 
 a:visited {
   color: var(--secondary) * 20%;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: var(--xx-large);
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: var(--x-large);
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+  color: var(--primary);
+  font-size: var(--large);
+  font-family: 'Permanent Marker', cursive;
 }
 
 .site-header {
@@ -47,14 +65,13 @@ a:visited {
 }
 
 .project-overview {
-  border: 1px solid black;
+  border-top: 1px solid var(--primary);
   margin: 1rem 0;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 100%;
 }
 
 .project-overview__name {
-  font-size: var(--x-large);
   margin: 0 0 1rem 0;
 }
 
@@ -73,12 +90,12 @@ a:visited {
 }
 
 .project-overview__button {
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
   border-radius: 5px;
   color: var(--background);
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   padding: .5em 1em;
   text-decoration: none;
   width: auto;
@@ -88,8 +105,8 @@ a:visited {
 .project-overview__button:focus,
 .project-overview__button:hover,
 .project-overview__button:visited {
-  background-color: var(--secondary);
-  border-color: var(--secondary);
+  background-color: var(--tertiary);
+  border-color: var(--tertiary);
   color: var(--inverse-text-color);
 }
 

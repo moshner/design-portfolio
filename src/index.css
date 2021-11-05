@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Signika+Negative:wght@300;400;600;700&display=swap');
+
 /* CSS Mini Reset http://www.vcarrer.com/2010/05/css-mini-reset.html */
 
 html, body, div, form, fieldset, legend, label
@@ -31,8 +33,7 @@ img { border: 0; }
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 1em;
@@ -67,8 +68,9 @@ p {
   --secondary: #5ea8af;
   --tertiary: #451c28;
   --background: #ffffff;
-  --text-color: #222624;
+  --text-color: #24143d;
   --inverse-text-color: #ffffff;
+  --text-link: #428086;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,6 +80,7 @@ p {
     --tertiary: #f89fba;
     --background: #19161f;
     --text-color: #adaaa7;
+    --text-link: #5ea8af;
     --inverse-text-color: #0A0909;
   }
 }

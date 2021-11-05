@@ -52,6 +52,7 @@ const App: VFC = () => (
                     </p>
                 </div>
                 <div>
+                    <h1>Projects</h1>
                     <ProjectOverviewCard
                         name="Project Name"
                         link="//google.com"

@@ -17,7 +17,7 @@ const ProjectOverviewCard: VFC<ComponentProps> = (props: ComponentProps) => {
 
     return (
         <section className="project-overview">
-            <h1 className="project-overview__name">{name}</h1>
+            <h2 className="project-overview__name">{name}</h2>
             <div className="project-overview__body-wrap">
                 <div className="project-overview__image-box"><img className="image-box__img" src={imgSrc} alt={imgAlt} /></div>
                 <div className="project-overview__description">
