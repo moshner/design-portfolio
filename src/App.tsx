@@ -92,7 +92,7 @@ const App: VFC = () => (
                         </div>
                     </ProjectOverviewCard>
                     <ProjectOverviewCard
-                        name="Customer Interviews"
+                        name="1 Month Before: Customer Interviews"
                         link="/interviews"
                         linkText="More Interview Action"
                         imgAlt="TODO"
@@ -106,7 +106,7 @@ const App: VFC = () => (
                         </p>
                     </ProjectOverviewCard>
                     <ProjectOverviewCard
-                        name="Design Sprints"
+                        name="1-2 weeks before: Design Sprints"
                         link="/design-sprints"
                         linkText="More Design Sprint Examples"
                         imgAlt="TODO"
