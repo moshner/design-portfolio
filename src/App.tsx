@@ -15,7 +15,7 @@ import type { VFC } from 'react';
 const App: VFC = () => (
     <Router>
         <header className="site-header">
-            <Link to="/">
+            <Link to="/" className="site-header__logo-link">
                 <picture>
                     <source
                         srcSet={logoDark}
@@ -39,52 +39,56 @@ const App: VFC = () => (
         <div className="site-content">
             <Switch>
                 <Route path="/" exact>
-                    <div>
-                        <h1>Portfolio</h1>
-                        <p>
-                            Hi, my name is
-                            {' '}
-                            <b>Nick Mosher</b>
-                            {' '}
-                            . I&apos;m a
-                            {' '}
-                            <b>Senior User Experience</b>
-                            {' '}
-                            designer, futurist, innovator, husband, and father. This
-                            is a small sample of my work as a design, researcher, and
-                            innovator. Let me know if you have any questions:
-                            {' '}
-                            <a href="mailto:nick@mosher.me">nick@mosher.me</a>
-                            {''}
-                            .
-                        </p>
-                        <p>
-                            Every project has unique needs. Sometimes a product is fully
-                            fleshed out and needs a minor tweak. Sometimes we need to
-                            solve a harry problem. Sometimes we need to step back and
-                            think about where the product is going in the next 30 years.
-                        </p>
-                        <p>
-                            This portfolio will highlight each stage of the design process.
-                            I hope to introduce you to my thoughts on each stage as well
-                            as provide an example artifact from each stage.
-                        </p>
-                        <h3>Index of the Stages of Design</h3>
-                        <ol>
-                            <li><a href="#design-futures">Design Futures</a></li>
-                            <li><a href="#customer-interviews">Customer Interviews</a></li>
-                            <li><a href="#personas">Personas</a></li>
-                            <li><a href="#workflow">Workflow</a></li>
-                            <li><a href="#wireframes">Wireframes</a></li>
-                            <li><a href="#usability1">Usability Testing (round 1)</a></li>
-                            <li><a href="#design-sprints">Design Sprints</a></li>
-                            <li><a href="#visual-design">Visual Design</a></li>
-                            <li><a href="#usability2">Usability Testing (round 2)</a></li>
-                            <li><a href="#specs">Development Specs</a></li>
-                            <li><a href="#usability3">Usability Testing (round 3)</a></li>
-                            <li><a href="#support">Design Support</a></li>
-                            <li><a href="#benchmark">Benchmark Usability Testing</a></li>
-                        </ol>
+                    <div className="overview">
+                        <div className="overview__intro">
+                            <h1>Portfolio</h1>
+                            <p>
+                                Hi, my name is
+                                {' '}
+                                <b>Nick Mosher</b>
+                                {' '}
+                                . I&apos;m a
+                                {' '}
+                                <b>Senior User Experience</b>
+                                {' '}
+                                designer, futurist, innovator, husband, and father. This
+                                is a small sample of my work as a design, researcher, and
+                                innovator. Let me know if you have any questions:
+                                {' '}
+                                <a href="mailto:nick@mosher.me">nick@mosher.me</a>
+                                {''}
+                                .
+                            </p>
+                            <p>
+                                Every project has unique needs. Sometimes a product is fully
+                                fleshed out and needs a minor tweak. Sometimes we need to
+                                solve a harry problem. Sometimes we need to step back and
+                                think about where the product is going in the next 30 years.
+                            </p>
+                            <p>
+                                This portfolio will highlight each stage of the design process.
+                                I hope to introduce you to my thoughts on each stage as well
+                                as provide an example artifact from each stage.
+                            </p>
+                        </div>
+                        <div className="overview__toc">
+                            <h3>Index of the Stages of Design</h3>
+                            <ol>
+                                <li><a href="#design-futures">Design Futures</a></li>
+                                <li><a href="#customer-interviews">Customer Interviews</a></li>
+                                <li><a href="#personas">Personas</a></li>
+                                <li><a href="#workflow">Workflow</a></li>
+                                <li><a href="#wireframes">Wireframes</a></li>
+                                <li><a href="#usability1">Usability Testing (round 1)</a></li>
+                                <li><a href="#design-sprints">Design Sprints</a></li>
+                                <li><a href="#visual-design">Visual Design</a></li>
+                                <li><a href="#usability2">Usability Testing (round 2)</a></li>
+                                <li><a href="#specs">Development Specs</a></li>
+                                <li><a href="#usability3">Usability Testing (round 3)</a></li>
+                                <li><a href="#support">Design Support</a></li>
+                                <li><a href="#benchmark">Benchmark Usability Testing</a></li>
+                            </ol>
+                        </div>
                     </div>
                     <div className="projects">
                         <h1 className="stages">Stages of Design</h1>
@@ -275,7 +279,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="All Througout"
+                            time="All Thru"
                             name="Design Support"
                             slug="support"
                             link="/support"

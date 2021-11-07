@@ -36,13 +36,10 @@ h3 {
 }
 
 .site-header {
-  background-color: var(--secondary);
+  background-image: linear-gradient(to right, var(--secondary) 25%, var(--tertiary) 100%);
   color: var(--inverse-text-color);
   padding: var(--small) var(--large) var(--xxx-small);
   margin-bottom: var(--small);
-  margin-top: -1rem;
-  margin-right: -1rem;
-  margin-left: -1rem;
   display: flex;
 }
 
@@ -57,7 +54,7 @@ h3 {
 }
 
 .site-header a {
-  border-bottom: 2px solid var(--secondary);
+  border-bottom: 2px solid transparent;
   margin: 0 .5rem;
   font-weight: 500;
   padding-bottom: .4rem;
@@ -66,8 +63,32 @@ h3 {
 
 .site-header a:hover,
 .site-header a:focus {
+  color: var(--secondary);
+  border-bottom-color: var(--secondary);
+}
+
+a.site-header__logo-link:hover {
   color: var(--tertiary);
   border-bottom-color: var(--tertiary);
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 47rem) {
+  .overview {
+    flex-direction: row;
+  }
+  .overview__intro {
+    flex-grow: 2;
+    width: 67%;
+  }
+
+  .overview__toc {
+    width: 33%;
+  }
 }
 
 .stages {
@@ -98,7 +119,7 @@ h3 {
   width: 2.5em;
   background-color: var(--primary);
   text-align: center;
-  line-height: 1.1em;
+  line-height: 1.3em;
   color: white;
   font-size: 1em;
   margin-top: 8rem;
@@ -198,7 +219,7 @@ h3 {
 }
 
 .site-footer {
-  background-color: var(--secondary);
+  background-image: linear-gradient(to right, var(--secondary) 25%, var(--tertiary) 100%);
   color: var(--inverse-text-color);
   margin: 0 -1rem -1rem;
   padding: 1rem;
