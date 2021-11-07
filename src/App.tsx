@@ -78,6 +78,9 @@ const App: VFC = () => (
                                 <li><a href="#customer-interviews">Customer Interviews</a></li>
                                 <li><a href="#personas">Personas</a></li>
                                 <li><a href="#workflow">Workflow</a></li>
+                                <li><a href="#card-sorts">Card Sorts</a></li>
+                                <li><a href="#ia">Information Architecture</a></li>
+                                <li><a href="#tree-testing">Tree Testing</a></li>
                                 <li><a href="#wireframes">Wireframes</a></li>
                                 <li><a href="#usability1">Usability Testing (round 1)</a></li>
                                 <li><a href="#design-sprints">Design Sprints</a></li>
@@ -158,6 +161,54 @@ const App: VFC = () => (
                             slug="workflow"
                             link="/workflow"
                             linkText="More Workflow"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>3 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-3 Weeks"
+                            name="Card Sorts"
+                            slug="card-sorts"
+                            link="/card-sorts"
+                            linkText="More Card Sorting"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>3 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-2 Weeks"
+                            name="Information Architecture (I.A.)"
+                            slug="ia"
+                            link="/ia"
+                            linkText="More I.A."
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>3 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-2 Weeks"
+                            name="Tree Testing"
+                            slug="tree-testing"
+                            link="/tree-testing"
+                            linkText="More Tree Testing"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
                         >
