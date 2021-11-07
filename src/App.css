@@ -40,7 +40,7 @@ h3 {
   background-image: linear-gradient(to right, var(--secondary) 25%, var(--tertiary) 100%);
   color: var(--inverse-text-color);
   padding: var(--small) var(--large) var(--xxx-small);
-  margin-bottom: var(--small);
+  margin: -1rem -1rem var(--small);
   display: flex;
 }
 
