@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import type { VFC } from 'react';
+import type { FC, PropsWithChildren as PWC } from 'react';
 
 interface ComponentProps {
     time: string;
@@ -12,7 +12,7 @@ interface ComponentProps {
     children: React.ReactNode;
 }
 
-const ProjectOverviewCard: VFC<ComponentProps> = (props: ComponentProps) => {
+const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => {
     const {
         time, name, imgSrc, imgAlt, link, linkText, children,
     } = props;
