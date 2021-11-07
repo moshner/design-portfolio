@@ -100,6 +100,48 @@ a.site-header__logo-link:hover {
   position: relative;
 }
 
+@media screen and (min-width: 24rem) {
+.projects:before {
+  content: ">";
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  color: var(--primary);
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 2em;
+  width: 100%;
+  margin-top: 1.25rem;
+  padding-left: 20rem;
+}
+}
+
+@media screen and (min-width: 32rem) {
+  .projects:before {
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
+  }
+}
+
+@media screen and (min-width: 36rem) {
+  .projects:before {
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .projects:before {
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
+    position: absolute;
+    font-family: 'Signika Negative', sans-serif;
+    color: var(--primary);
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 2em;
+    width: 100%;
+    margin-top: 1.25rem;
+    padding-left: 0;
+  }
+}
+
 .project-overview {
   border-image: linear-gradient(to right, var(--secondary) 0%, var(--tertiary) 100%);
   border-image-slice: 1;
@@ -115,6 +157,7 @@ a.site-header__logo-link:hover {
   content: attr(data-time);
   position: absolute;
   border-radius: 50%;
+  font-family: 'Signika Negative', sans-serif;
   padding: 15px;
   height: 2.5em;
   width: 2.5em;
@@ -135,6 +178,26 @@ a.site-header__logo-link:hover {
 .project-overview:nth-of-type(even):before {
   right: 100%;
   margin-right: -2.25em;
+}
+
+.project-overview:after {
+  content: "<\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0<\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0<";
+  position: absolute;
+  font-family: 'Signika Negative', sans-serif;
+  color: var(--primary);
+  text-align: center;
+  line-height: 1.3em;
+  font-size: 2em;
+  width: 100%;
+  margin-top: .25rem;
+}
+
+.project-overview:nth-of-type(even):after {
+  content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
+}
+
+.project-overview:nth-last-of-type(1):after {
+  content: "";
 }
 
 .project-overview:nth-of-type(even) {

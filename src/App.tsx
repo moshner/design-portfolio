@@ -91,7 +91,9 @@ const App: VFC = () => (
                         </nav>
                     </div>
                     <div className="projects">
-                        <h1 className="stages">Stages of Design</h1>
+                        <h1 className="stages">
+                            Stages of Design
+                        </h1>
                         <ProjectOverviewCard
                             time="-30 Years"
                             name="Design Futures"
