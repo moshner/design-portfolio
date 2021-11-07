@@ -40,7 +40,7 @@ const App: VFC = () => (
             <Switch>
                 <Route path="/" exact>
                     <div>
-                        <h1>About Me</h1>
+                        <h1>Portfolio</h1>
                         <p>
                             Hi, my name is
                             {' '}
