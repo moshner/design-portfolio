@@ -29,6 +29,11 @@ h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
+.site-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .site-header {
   background-color: var(--secondary);
   color: var(--inverse-text-color);
@@ -64,11 +69,59 @@ h3 {
   border-bottom-color: var(--tertiary);
 }
 
+.projects {
+  position: relative;
+}
+
 .project-overview {
-  border-top: 1px solid var(--primary);
-  margin: 1rem 0;
-  padding: 1rem 0;
+  border-image: linear-gradient(to right, var(--secondary) 0%, var(--tertiary) 100%);
+  border-image-slice: 1;
+  border-top: 2px solid;
+  border-right: 4px solid;
+  border-bottom: 2px solid;
+  margin: 0;
+  padding: 1rem;
   width: 100%;
+}
+
+.project-overview:before {
+  content: attr(data-time);
+  position: absolute;
+  border-radius: 50%;
+  padding: 15px;
+  height: 2.5em;
+  width: 2.5em;
+  background-color: var(--primary);
+  text-align: center;
+  line-height: 1.1em;
+  color: white;
+  font-size: 1em;
+  margin-top: 8rem;
+  vertical-align: baseline;
+}
+
+.project-overview:nth-of-type(odd):before {
+  left: 100%;
+  margin-left: -2.25em;
+}
+
+.project-overview:nth-of-type(even):before {
+  right: 100%;
+  margin-right: -2.25em;
+}
+
+.project-overview:nth-of-type(even) {
+  border-top-width: 2px;
+  border-left: 3px solid var(--primary);
+  border-right: 0;
+}
+
+.project-overview:nth-of-type(1) {
+  border-top-width: 4px;
+}
+
+.project-overview:nth-last-of-type(1) {
+  border-bottom-width: 0;
 }
 
 .project-overview__name {
