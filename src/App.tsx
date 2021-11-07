@@ -57,25 +57,65 @@ const App: VFC = () => (
                         {''}
                         .
                     </p>
+                    <p>
+                        Every project has unique needs. Sometimes a product is fully
+                        fleshed out and needs a minor tweak. Sometimes we need to
+                        solve a harry problem. Sometimes we need to step back and
+                        think about where the product is going in the next 30 years.
+                    </p>
+                    <p>
+                        This portfolio will highlight each stage of the design process.
+                        I hope to introduce you to my thoughts on each stage as well
+                        as provide an example artifact from each stage.
+                    </p>
                 </div>
                 <div>
-                    <h1>Projects</h1>
+                    <h1>Stages of Design</h1>
                     <ProjectOverviewCard
-                        name="Project Name"
-                        link="//google.com"
-                        linkText="google"
-                        imgAlt="A cute kitten"
-                        imgSrc="//placekitten.com/1600/900"
-                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
-                    />
+                        name="30 Years Before: Designing a Future"
+                        link="/futures"
+                        linkText="More Futures Work"
+                        imgAlt="TODO"
+                        imgSrc="//placekitten.com/800/600"
+                    >
+                        <div>
+                            <p>
+                                Futures thinking provides a framework to imagine possible
+                                futures. Workshop techniques help the business and design
+                                teams determine:
+                            </p>
+                            <ol>
+                                <li>What are the possible futures for your business unit?</li>
+                                <li>What is the idea future you want to drivetowards?</li>
+                                <li>What would a roadmap towards that future look like?</li>
+                            </ol>
+                        </div>
+                    </ProjectOverviewCard>
                     <ProjectOverviewCard
-                        name="Project Name"
-                        link="//google.com"
-                        linkText="google"
-                        imgAlt="A cute kitten"
+                        name="Customer Interviews"
+                        link="/interviews"
+                        linkText="More Interview Action"
+                        imgAlt="TODO"
                         imgSrc="//placekitten.com/800/601"
-                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa perspiciatis quod in facilis aut, voluptate laudantium aperiam consectetur saepe, corrupti, iure commodi id dignissimos ullam eaque alias illum rerum."
-                    />
+                    >
+                        <p>
+                            Interviews are a vital part of understanding your customers.
+                            You can either perform basic interviews, exploritory interviews,
+                            or contextual intervies. I have significant experience with
+                            basic and exploritory interviews.
+                        </p>
+                    </ProjectOverviewCard>
+                    <ProjectOverviewCard
+                        name="Design Sprints"
+                        link="/design-sprints"
+                        linkText="More Design Sprint Examples"
+                        imgAlt="TODO"
+                        imgSrc="//placekitten.com/800/601"
+                    >
+                        <p>
+                            TODO
+                        </p>
+                    </ProjectOverviewCard>
                 </div>
             </Route>
         </Switch>

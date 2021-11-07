@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import type { VFC } from 'react';
 
@@ -7,12 +8,12 @@ interface ComponentProps {
     link: string;
     linkText: string;
     name: string;
-    text: string;
+    children: React.ReactNode;
 }
 
 const ProjectOverviewCard: VFC<ComponentProps> = (props: ComponentProps) => {
     const {
-        name, imgSrc, imgAlt, link, linkText, text,
+        name, imgSrc, imgAlt, link, linkText, children,
     } = props;
 
     return (
@@ -21,7 +22,7 @@ const ProjectOverviewCard: VFC<ComponentProps> = (props: ComponentProps) => {
             <div className="project-overview__body-wrap">
                 <div className="project-overview__image-box"><img className="image-box__img" src={imgSrc} alt={imgAlt} /></div>
                 <div className="project-overview__description">
-                    <p className="project-overview__text">{text}</p>
+                    <div className="project-overview__text">{children}</div>
                     <Link className="project-overview__button" to={link}>{linkText}</Link>
                 </div>
             </div>
