@@ -71,16 +71,17 @@ const App: VFC = () => (
                         </p>
                     </div>
                     <div className="projects">
-                        <h1>Stages of Design</h1>
+                        <h1 className="stages">Stages of Design</h1>
                         <ProjectOverviewCard
                             time="-30 Years"
-                            name="30 Years Before: Designing a Future"
+                            name="Design Futures"
                             link="/futures"
                             linkText="More Futures Work"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/600"
                         >
                             <div>
+                                <h3>30 Years Ahead</h3>
                                 <p>
                                     Futures thinking provides a framework to imagine possible
                                     futures. Workshop techniques help the business and design
