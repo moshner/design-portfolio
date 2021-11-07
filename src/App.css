@@ -5,6 +5,7 @@ body {
 
 a {
   color: var(--text-link);
+  font-size: var(--medium);
 }
 
 a:visited {
@@ -175,6 +176,7 @@ a.site-header__logo-link:hover {
   color: var(--background);
   display: inline-block;
   font-weight: 600;
+  margin-bottom: 2.5rem;
   padding: .5em 1em;
   text-decoration: none;
   width: auto;
@@ -191,6 +193,10 @@ a.site-header__logo-link:hover {
 
 .project-overview__image-box {
   flex-grow: 2;
+}
+
+.project-overview__description {
+  position: relative;
 }
 
 @media screen and (min-width: 36rem) {
@@ -216,6 +222,18 @@ a.site-header__logo-link:hover {
 .image-box__img {
   width: 100%;
   height: auto;
+}
+
+.jump-to-top {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 36rem) {
+  .project-overview:nth-child(even) .jump-to-top {
+    left: 0;
+  }
 }
 
 .site-footer {

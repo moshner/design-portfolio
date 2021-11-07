@@ -71,8 +71,8 @@ const App: VFC = () => (
                                 as provide an example artifact from each stage.
                             </p>
                         </div>
-                        <div className="overview__toc">
-                            <h3>Index of the Stages of Design</h3>
+                        <nav className="overview__toc">
+                            <h3>Table of Contents</h3>
                             <ol>
                                 <li><a href="#design-futures">Design Futures</a></li>
                                 <li><a href="#customer-interviews">Customer Interviews</a></li>
@@ -88,7 +88,7 @@ const App: VFC = () => (
                                 <li><a href="#support">Design Support</a></li>
                                 <li><a href="#benchmark">Benchmark Usability Testing</a></li>
                             </ol>
-                        </div>
+                        </nav>
                     </div>
                     <div className="projects">
                         <h1 className="stages">Stages of Design</h1>
