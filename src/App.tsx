@@ -96,30 +96,171 @@ const App: VFC = () => (
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
                             time="-1 Month"
-                            name="1 Month Before: Customer Interviews"
+                            name="Customer Interviews"
                             link="/interviews"
                             linkText="More Interview Action"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
                         >
-                            <p>
-                                Interviews are a vital part of understanding your customers.
-                                You can either perform basic interviews, exploritory interviews,
-                                or contextual intervies. I have significant experience with
-                                basic and exploritory interviews.
-                            </p>
+                            <div>
+                                <h3>1 Month Before Development</h3>
+                                <p>
+                                    Interviews are a vital part of understanding your customers.
+                                    You can either perform basic interviews, exploritory interviews,
+                                    or contextual intervies. I have significant experience with
+                                    basic and exploritory interviews.
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-3 Weeks"
+                            name="Workflow"
+                            link="/workflow"
+                            linkText="More Workflow"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>3 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
                             time="-2 Weeks"
-                            name="1-2 weeks before: Design Sprints"
+                            name="Wireframes"
+                            link="/wireframes"
+                            linkText="More Wireframes"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>2 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-2 Weeks"
+                            name="Usability Testing (round 1)"
+                            link="/usabilty"
+                            linkText="More Usability Testing"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>2 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-2 Weeks"
+                            name="Design Sprints"
                             link="/design-sprints"
                             linkText="More Design Sprint Examples"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
                         >
-                            <p>
-                                TODO
-                            </p>
+                            <div>
+                                <h3>1-2 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-2 Weeks"
+                            name="Visual Design"
+                            link="/visual-design"
+                            linkText="More Design"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>2 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="-1 Weeks"
+                            name="Usability Testing (round 2)"
+                            link="/usability"
+                            linkText="More usability"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>1 weeks Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="0 Days"
+                            name="Development Specs"
+                            link="/specs"
+                            linkText="More Specs"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>0 Days Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="2-3 Sprints"
+                            name="Usability Test (round 3)"
+                            link="/usability"
+                            linkText="More Usability"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>2-3 Sprints Into Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="All Througout"
+                            name="Design Support"
+                            link="/support"
+                            linkText="More Support"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>All Throughout Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
+                            time="Each Year"
+                            name="Benchmark Usability Testing"
+                            link="/benchmarks"
+                            linkText="More About Benchmarks"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>After Launch and Yearly</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
                         </ProjectOverviewCard>
                     </div>
                 </Route>
