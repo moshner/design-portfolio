@@ -69,12 +69,29 @@ const App: VFC = () => (
                             I hope to introduce you to my thoughts on each stage as well
                             as provide an example artifact from each stage.
                         </p>
+                        <h3>Index of the Stages of Design</h3>
+                        <ol>
+                            <li><a href="#design-futures">Design Futures</a></li>
+                            <li><a href="#customer-interviews">Customer Interviews</a></li>
+                            <li><a href="#personas">Personas</a></li>
+                            <li><a href="#workflow">Workflow</a></li>
+                            <li><a href="#wireframes">Wireframes</a></li>
+                            <li><a href="#usability1">Usability Testing (round 1)</a></li>
+                            <li><a href="#design-sprints">Design Sprints</a></li>
+                            <li><a href="#visual-design">Visual Design</a></li>
+                            <li><a href="#usability2">Usability Testing (round 2)</a></li>
+                            <li><a href="#specs">Development Specs</a></li>
+                            <li><a href="#usability3">Usability Testing (round 3)</a></li>
+                            <li><a href="#support">Design Support</a></li>
+                            <li><a href="#benchmark">Benchmark Usability Testing</a></li>
+                        </ol>
                     </div>
                     <div className="projects">
                         <h1 className="stages">Stages of Design</h1>
                         <ProjectOverviewCard
                             time="-30 Years"
                             name="Design Futures"
+                            slug="design-futures"
                             link="/futures"
                             linkText="More Futures Work"
                             imgAlt="TODO"
@@ -97,6 +114,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-1 Month"
                             name="Customer Interviews"
+                            slug="customer-interviews"
                             link="/interviews"
                             linkText="More Interview Action"
                             imgAlt="TODO"
@@ -113,8 +131,25 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
+                            time="-1 Month"
+                            name="Personas"
+                            slug="personas"
+                            link="/personas"
+                            linkText="More About Personas"
+                            imgAlt="TODO"
+                            imgSrc="//placekitten.com/800/601"
+                        >
+                            <div>
+                                <h3>1 Month Before Development</h3>
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </ProjectOverviewCard>
+                        <ProjectOverviewCard
                             time="-3 Weeks"
                             name="Workflow"
+                            slug="workflow"
                             link="/workflow"
                             linkText="More Workflow"
                             imgAlt="TODO"
@@ -130,6 +165,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-2 Weeks"
                             name="Wireframes"
+                            slug="wireframes"
                             link="/wireframes"
                             linkText="More Wireframes"
                             imgAlt="TODO"
@@ -145,6 +181,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-2 Weeks"
                             name="Usability Testing (round 1)"
+                            slug="usability1"
                             link="/usabilty"
                             linkText="More Usability Testing"
                             imgAlt="TODO"
@@ -160,6 +197,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-2 Weeks"
                             name="Design Sprints"
+                            slug="design-sprints"
                             link="/design-sprints"
                             linkText="More Design Sprint Examples"
                             imgAlt="TODO"
@@ -175,6 +213,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-2 Weeks"
                             name="Visual Design"
+                            slug="visual-design"
                             link="/visual-design"
                             linkText="More Design"
                             imgAlt="TODO"
@@ -190,6 +229,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="-1 Weeks"
                             name="Usability Testing (round 2)"
+                            slug="usability2"
                             link="/usability"
                             linkText="More usability"
                             imgAlt="TODO"
@@ -205,6 +245,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="0 Days"
                             name="Development Specs"
+                            slug="specs"
                             link="/specs"
                             linkText="More Specs"
                             imgAlt="TODO"
@@ -220,6 +261,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="2-3 Sprints"
                             name="Usability Test (round 3)"
+                            slug="usability3"
                             link="/usability"
                             linkText="More Usability"
                             imgAlt="TODO"
@@ -235,6 +277,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="All Througout"
                             name="Design Support"
+                            slug="support"
                             link="/support"
                             linkText="More Support"
                             imgAlt="TODO"
@@ -250,6 +293,7 @@ const App: VFC = () => (
                         <ProjectOverviewCard
                             time="Each Year"
                             name="Benchmark Usability Testing"
+                            slug="benchmark"
                             link="/benchmarks"
                             linkText="More About Benchmarks"
                             imgAlt="TODO"
