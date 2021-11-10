@@ -103,7 +103,7 @@ const App: VFC = () => (
                             slug="design-futures"
                             link="/design-futures"
                             linkText="More Futures Work"
-                            imgAlt="TODO"
+                            imgAlt="Image map of the Draw out Consequences technique"
                             imgSrc="./static/ECL-Themes.png"
                         >
                             <div>
@@ -125,6 +125,20 @@ const App: VFC = () => (
                                     foresight &gt; insight &gt; action I can help
                                     the business gain vision, understanding,
                                     clarity, and agility
+                                </p>
+                                <p>
+                                    The image is a map of possible consquences to
+                                    our scenario we wrote on day 6 of the workshop.
+                                    In &quote;Draw Out consquences&quote; the team
+                                    works to identify impacts of decisions and actions
+                                    that others may take in response to a scenario.
+                                    This technique chains if-then statements to form
+                                    a more complex scenario.
+                                </p>
+                                <p>
+                                    There are sixteen (16) total techniques in my
+                                    future thinking toolbox meant to drive foresight
+                                    into insight into action.
                                 </p>
                             </div>
                         </ProjectOverviewCard>
