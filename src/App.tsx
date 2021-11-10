@@ -104,7 +104,7 @@ const App: VFC = () => (
                             link="/design-futures"
                             linkText="More Futures Work"
                             imgAlt="TODO"
-                            imgSrc="./static/ECL-Themes.png"
+                            imgSrc="./static/ECL-Themes.png?nf_resize=fit&w=800"
                         >
                             <div>
                                 <h3>30 Years Ahead</h3>
