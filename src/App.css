@@ -64,12 +64,10 @@ h3 {
 
 .site-header a:hover,
 .site-header a:focus {
-  color: var(--secondary);
   border-bottom-color: var(--secondary);
 }
 
 a.site-header__logo-link:hover {
-  color: var(--tertiary);
   border-bottom-color: var(--tertiary);
 }
 
