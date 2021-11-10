@@ -98,7 +98,7 @@ const App: VFC = () => (
                             Stages of Design
                         </h1>
                         <ProjectOverviewCard
-                            time="-30 Years"
+                            time="30 Years"
                             name="Design Futures"
                             slug="design-futures"
                             link="/design-futures"
@@ -143,7 +143,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-1 Month"
+                            time="1 Month"
                             name="Customer Interviews"
                             slug="customer-interviews"
                             link="/customer-interviews"
@@ -162,7 +162,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-1 Month"
+                            time="1 Month"
                             name="Personas"
                             slug="personas"
                             link="/personas"
@@ -178,7 +178,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-3 Weeks"
+                            time="3 Weeks"
                             name="Workflow"
                             slug="workflow"
                             link="/workflow"
@@ -194,7 +194,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-3 Weeks"
+                            time="3 Weeks"
                             name="Card Sorts"
                             slug="card-sorts"
                             link="/card-sorts"
@@ -210,7 +210,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Information Architecture (I.A.)"
                             slug="ia"
                             link="/ia"
@@ -226,7 +226,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Tree Testing"
                             slug="tree-testing"
                             link="/tree-testing"
@@ -242,7 +242,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Wireframes"
                             slug="wireframes"
                             link="/wireframes"
@@ -258,7 +258,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Usability Testing (round 1)"
                             slug="usability1"
                             link="/usabilty"
@@ -274,7 +274,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Design Sprints"
                             slug="design-sprints"
                             link="/design-sprints"
@@ -290,7 +290,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-2 Weeks"
+                            time="2 Weeks"
                             name="Visual Design"
                             slug="visual-design"
                             link="/visual-design"
@@ -306,7 +306,7 @@ const App: VFC = () => (
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
-                            time="-1 Weeks"
+                            time="1 Weeks"
                             name="Usability Testing (round 2)"
                             slug="usability2"
                             link="/usability"
