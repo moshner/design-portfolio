@@ -104,7 +104,7 @@ const App: VFC = () => (
                             link="/design-futures"
                             linkText="More Futures Work"
                             imgAlt="TODO"
-                            imgSrc="./static/ECL-Themes.png?nf_resize=fit&w=800"
+                            imgSrc="./static/ECL-Themes.png"
                         >
                             <div>
                                 <h3>30 Years Ahead</h3>
@@ -118,6 +118,14 @@ const App: VFC = () => (
                                     <li>What is the idea future you want to drivetowards?</li>
                                     <li>What would a roadmap towards that future look like?</li>
                                 </ol>
+                                <p>
+                                    These workshops focus addressing this volitile,
+                                    uncertain, complex, and ambigous world that we
+                                    live in. Using Bob Joahansens framework of
+                                    foresight &gt; insight &gt; action I can help
+                                    the business gain vision, understanding,
+                                    clarity, and agility
+                                </p>
                             </div>
                         </ProjectOverviewCard>
                         <ProjectOverviewCard
