@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import type { FC, PropsWithChildren as PWC } from 'react';
+import {Link} from 'react-router-dom';
+import type {FC, PropsWithChildren as PWC} from 'react';
 
 interface ComponentProps {
     time: string;

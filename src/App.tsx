@@ -10,7 +10,7 @@ import {
     Route,
     Link,
 } from 'react-router-dom';
-import type { VFC } from 'react';
+import type {VFC} from 'react';
 
 const App: VFC = () => (
     <Router>
