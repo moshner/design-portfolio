@@ -102,7 +102,7 @@ a.site-header__logo-link:hover {
 
 @media screen and (min-width: 27rem) {
 .projects:before {
-  content: "\25B6";
+  content: ">";
   position: absolute;
   font-family: 'Signika Negative', sans-serif;
   color: var(--primary);
@@ -117,19 +117,19 @@ a.site-header__logo-link:hover {
 
 @media screen and (min-width: 32rem) {
   .projects:before {
-    content: "\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6";
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
   }
 }
 
 @media screen and (min-width: 36rem) {
   .projects:before {
-    content: "\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6";
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
   }
 }
 
 @media screen and (min-width: 55rem) {
   .projects:before {
-    content: "\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6";
+    content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
     position: absolute;
     font-family: 'Signika Negative', sans-serif;
     color: var(--primary);
@@ -181,7 +181,7 @@ a.site-header__logo-link:hover {
 }
 
 .project-overview:after {
-  content: "\25C0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25C0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25C0";
+  content: "<\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0<\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0<";
   position: absolute;
   font-family: 'Signika Negative', sans-serif;
   color: var(--primary);
@@ -193,7 +193,7 @@ a.site-header__logo-link:hover {
 }
 
 .project-overview:nth-of-type(even):after {
-  content: "\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25B6";
+  content: ">\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0>";
 }
 
 .project-overview:nth-last-of-type(1):after {

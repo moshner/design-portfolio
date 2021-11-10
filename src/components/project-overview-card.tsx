@@ -43,7 +43,7 @@ const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => 
                 <div className="project-overview__description">
                     <div className="project-overview__text">{children}</div>
                     <Link className="project-overview__button" to={link}>{linkText}</Link>
-                    <a href="#root" className="jump-to-top">Jump to Top &#10548;</a>
+                    <a href="#root" className="jump-to-top">Jump to Top ^</a>
                 </div>
             </div>
         </section>
