@@ -32,13 +32,15 @@ const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => 
             <h2 className="project-overview__name">{name}</h2>
             <div className="project-overview__body-wrap">
                 <div className="project-overview__image-box">
-                    <img
-                        className="image-box__img"
-                        src={urlSize(imgSrc, '800')}
-                        srcSet={srcSet(imgSrc)}
-                        sizes="(max-width: 900px) 500px, 800px"
-                        alt={imgAlt}
-                    />
+                    <a href={imgSrc} target="_blank" rel="noreferrer">
+                        <img
+                            className="image-box__img"
+                            src={urlSize(imgSrc, '800')}
+                            srcSet={srcSet(imgSrc)}
+                            sizes="(max-width: 900px) 500px, 800px"
+                            alt={imgAlt}
+                        />
+                    </a>
                 </div>
                 <div className="project-overview__description">
                     <div className="project-overview__text">{children}</div>

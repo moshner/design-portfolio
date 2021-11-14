@@ -8,6 +8,11 @@ a {
   font-size: var(--medium);
 }
 
+a[target="_blank"]::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
 a:visited {
   color: var(--secondary) * 20%;
 }
@@ -278,6 +283,18 @@ a.site-header__logo-link:hover {
   .project-overview__text h3 {
     margin-top: 0;
   }
+}
+
+.project-overview__image-box {
+  position: relative;
+}
+
+.project-overview__image-box a[target="_blank"]::after {
+  position: absolute;
+  margin: 0.5rem 0 0 -2.5rem;
+  background-color: white;
+  padding: .5rem .75rem;
+  border-radius: 5px;
 }
 
 .image-box__img {
