@@ -411,8 +411,8 @@ const App: VFC = () => (
                             link="/wireframes"
                             linkText="More Wireframes"
                             imgAlt="Screenshot of a dashboard wireframe"
-                            imgSrc="./static/wireframe1.png"
-                            imgDesc="The above image is a screenshot of a CME Provider Dashboard in Axure RP. This application had over 30 iterations in just the wireframes."
+                            imgSrc="./static/wireframes.png"
+                            imgDesc="The above images are several screens from the CME Provider Dashboard in Axure RP. This application had over 30 iterations in just the wireframes."
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
