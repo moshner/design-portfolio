@@ -7,6 +7,7 @@ interface ComponentProps {
     imgAlt: string;
     imgSrc: string;
     imgDesc: string;
+    imgLink?: string;
     link: string;
     linkText: string;
     name: string;
@@ -16,7 +17,7 @@ interface ComponentProps {
 
 const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => {
     const {
-        time, name, imgSrc, imgAlt, imgDesc, link, linkText, children, slug,
+        time, name, imgSrc, imgAlt, imgDesc, imgLink, link, linkText, children, slug,
     } = props;
 
     function urlSize(img: string, pxl: string): string {
@@ -28,12 +29,19 @@ const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => 
                 ${img}?nf_resize=fit&w=800 800w,`;
     }
 
+    function imgLinkUrl(original: string, replacement?: string): string {
+        if (replacement !== undefined) {
+            return replacement;
+        }
+        return original;
+    }
+
     return (
         <section className="project-overview" data-time={time} id={slug}>
             <h2 className="project-overview__name">{name}</h2>
             <div className="project-overview__body-wrap">
                 <div className="project-overview__image-box">
-                    <a href={imgSrc} target="_blank" rel="noreferrer">
+                    <a href={imgLinkUrl(imgSrc, imgLink)} target="_blank" rel="noreferrer">
                         <img
                             className="image-box__img"
                             src={urlSize(imgSrc, '800')}
