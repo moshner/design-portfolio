@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-helmet": "^6.1.4",
     "commitlint": "^14.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",

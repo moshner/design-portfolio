@@ -24,19 +24,18 @@ h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
 
 img { border: 0; }
 
+
+/* Overall Styles */
+
 :root {
   font-size: 18px;
 }
-
-/* Overall Styles */
 
 * {
   box-sizing: border-box;
 }
 
-
 body {
-  margin: 0;
   font-family: 'Signika Negative', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
