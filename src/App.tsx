@@ -38,11 +38,11 @@ const App: VFC = () => (
                                 Hi, my name is
                                 {' '}
                                 <b>Nick Mosher</b>
-                                {' '}
+                                {''}
                                 . I&apos;m a
                                 {' '}
                                 <b>Senior User Experience Designer</b>
-                                {' '}
+                                {''}
                                 , husband, and father. Here I have collected a small
                                 sample of my work as a designer, researcher, futurist,
                                 and innovator. Let me know if you have any questions:
