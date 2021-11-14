@@ -164,6 +164,7 @@ a.site-header__logo-link:hover {
   text-align: center;
   vertical-align: baseline;
   width: 2.5em;
+  z-index: 2;
 }
 
 .project-overview:nth-of-type(odd):before {
