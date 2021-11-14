@@ -25,14 +25,6 @@ const App: VFC = () => (
                 </picture>
             </Link>
             <nav>
-                <Link to="/">Projects</Link>
-                {' '}
-                |
-                {' '}
-                <Link to="/project1">Resume</Link>
-                {' '}
-                |
-                {' '}
                 <a href="https://nick.mosher.me">About Nick</a>
             </nav>
         </header>
@@ -94,7 +86,7 @@ const App: VFC = () => (
                             Stages of Design
                         </h1>
                         <ProjectOverviewCard
-                            time="10-30 Years"
+                            time="30 Years"
                             name="Design Futures"
                             slug="design-futures"
                             link="/design-futures"
@@ -110,7 +102,7 @@ const App: VFC = () => (
                             more complex scenario."
                         >
                             <div>
-                                <h3>30 Years Ahead</h3>
+                                <h3>10-30 Years Ahead</h3>
                                 <p>
                                     Futures Thinking does not predict the future. Rather,
                                     it is a cross-disciplinary approach to considering
