@@ -6,6 +6,7 @@ interface ComponentProps {
     time: string;
     imgAlt: string;
     imgSrc: string;
+    imgDesc: string;
     link: string;
     linkText: string;
     name: string;
@@ -15,7 +16,7 @@ interface ComponentProps {
 
 const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => {
     const {
-        time, name, imgSrc, imgAlt, link, linkText, children, slug,
+        time, name, imgSrc, imgAlt, imgDesc, link, linkText, children, slug,
     } = props;
 
     function urlSize(img: string, pxl: string): string {
@@ -41,6 +42,7 @@ const ProjectOverviewCard: FC<ComponentProps> = (props: PWC<ComponentProps>) => 
                             alt={imgAlt}
                         />
                     </a>
+                    <p className="image-box__desc">{imgDesc}</p>
                 </div>
                 <div className="project-overview__description">
                     <div className="project-overview__text">{children}</div>

@@ -105,6 +105,13 @@ const App: VFC = () => (
                             linkText="More Futures Work"
                             imgAlt="Image map of the Draw out Consequences technique"
                             imgSrc="./static/ECL-Themes.png"
+                            imgDesc="The image is a map of possible consquences to
+                            our scenario we wrote on day 6 of the workshop.
+                            In &quot;Draw Out Consquences&quot; the team
+                            works to identify impacts of decisions and actions
+                            that others may take in response to a scenario.
+                            This technique chains if-then statements to form
+                            a more complex scenario."
                         >
                             <div>
                                 <h3>30 Years Ahead</h3>
@@ -127,15 +134,6 @@ const App: VFC = () => (
                                     clarity, and agility
                                 </p>
                                 <p>
-                                    The image is a map of possible consquences to
-                                    our scenario we wrote on day 6 of the workshop.
-                                    In &quote;Draw Out consquences&quote; the team
-                                    works to identify impacts of decisions and actions
-                                    that others may take in response to a scenario.
-                                    This technique chains if-then statements to form
-                                    a more complex scenario.
-                                </p>
-                                <p>
                                     There are sixteen (16) total techniques in my
                                     future thinking toolbox meant to drive foresight
                                     into insight into action.
@@ -150,6 +148,7 @@ const App: VFC = () => (
                             linkText="More Interview Action"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>1 Month Before Development</h3>
@@ -169,6 +168,7 @@ const App: VFC = () => (
                             linkText="More About Personas"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>1 Month Before Development</h3>
@@ -185,6 +185,7 @@ const App: VFC = () => (
                             linkText="More Workflow"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -201,6 +202,7 @@ const App: VFC = () => (
                             linkText="More Card Sorting"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -217,6 +219,7 @@ const App: VFC = () => (
                             linkText="More I.A."
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -233,6 +236,7 @@ const App: VFC = () => (
                             linkText="More Tree Testing"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -249,6 +253,7 @@ const App: VFC = () => (
                             linkText="More Wireframes"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
@@ -265,6 +270,7 @@ const App: VFC = () => (
                             linkText="More Usability Testing"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
@@ -281,6 +287,7 @@ const App: VFC = () => (
                             linkText="More Design Sprint Examples"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>1-2 weeks Before Development</h3>
@@ -297,6 +304,7 @@ const App: VFC = () => (
                             linkText="More Design"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
@@ -313,6 +321,7 @@ const App: VFC = () => (
                             linkText="More usability"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>1 weeks Before Development</h3>
@@ -329,6 +338,7 @@ const App: VFC = () => (
                             linkText="More Specs"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>0 Days Before Development</h3>
@@ -345,6 +355,7 @@ const App: VFC = () => (
                             linkText="More Usability"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>2-3 Sprints Into Development</h3>
@@ -361,6 +372,7 @@ const App: VFC = () => (
                             linkText="More Support"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>All Throughout Development</h3>
@@ -377,6 +389,7 @@ const App: VFC = () => (
                             linkText="More About Benchmarks"
                             imgAlt="TODO"
                             imgSrc="//placekitten.com/800/601"
+                            imgDesc="foo"
                         >
                             <div>
                                 <h3>After Launch and Yearly</h3>

@@ -226,7 +226,7 @@ a.site-header__logo-link:hover {
   flex-direction: column;
 }
 
-@media screen and (min-width: 36rem) {
+@media screen and (min-width: 50rem) {
   .project-overview__body-wrap {
     flex-direction: row;
   }
@@ -265,11 +265,11 @@ a.site-header__logo-link:hover {
   position: relative;
 }
 
-@media screen and (min-width: 36rem) {
+@media screen and (min-width: 50rem) {
   .project-overview__description {
     margin-top: 0;
     margin-left: 1rem;
-    max-width: 33%;
+    max-width: 50%;
   }
   .project-overview:nth-child(even) .project-overview__description {
     margin-left: 0;
@@ -282,6 +282,12 @@ a.site-header__logo-link:hover {
 
   .project-overview__text h3 {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .project-overview__description {
+    max-width: 33%;
   }
 }
 
@@ -300,6 +306,10 @@ a.site-header__logo-link:hover {
 .image-box__img {
   width: 100%;
   height: auto;
+}
+
+.image-box__desc {
+  font-style: italic;
 }
 
 .jump-to-top {
