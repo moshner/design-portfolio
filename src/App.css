@@ -36,17 +36,17 @@ h3 {
 }
 
 .site-content {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 var(--medium);
 }
 
 .site-header {
   background-image: linear-gradient(to right, var(--secondary) 25%, var(--tertiary) 100%);
   color: var(--inverse-text-color);
-  padding: var(--small) var(--large) var(--xxx-small);
-  margin: -1rem -1rem var(--small);
   display: flex;
+  margin: -1rem -1rem var(--small);
+  padding: var(--small) var(--large) var(--xxx-small);
 }
 
 .site-header__logo {
@@ -54,15 +54,15 @@ h3 {
 }
 
 .site-header nav {
-  text-align: right;
   flex-grow: 5;
   margin-top: .4rem;
+  text-align: right;
 }
 
 .site-header a {
   border-bottom: 2px solid transparent;
-  margin: 0 .5rem;
   font-weight: 500;
+  margin: 0 .5rem;
   padding-bottom: .4rem;
   text-decoration: none;
 }
@@ -150,20 +150,20 @@ a.site-header__logo-link:hover {
 }
 
 .project-overview:before {
-  content: attr(data-time);
-  position: absolute;
-  border-radius: 50%;
-  font-family: 'Signika Negative', sans-serif;
-  padding: 15px;
-  height: 2.5em;
-  width: 2.5em;
   background-color: var(--primary);
-  text-align: center;
-  line-height: 1.3em;
+  border-radius: 50%;
   color: white;
+  content: attr(data-time);
+  font-family: 'Signika Negative', sans-serif;
   font-size: 1em;
+  height: 2.5em;
+  line-height: 1.3em;
   margin-top: 8rem;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
   vertical-align: baseline;
+  width: 2.5em;
 }
 
 .project-overview:nth-of-type(odd):before {
@@ -197,9 +197,9 @@ a.site-header__logo-link:hover {
 }
 
 .project-overview:nth-of-type(even) {
-  border-top-width: 2px;
   border-left: 3px solid var(--primary);
   border-right: 0;
+  border-top-width: 2px;
 }
 
 .project-overview:nth-of-type(1) {
@@ -260,8 +260,8 @@ a.site-header__logo-link:hover {
 
 @media screen and (min-width: 50rem) {
   .project-overview__description {
-    margin-top: 0;
     margin-left: 1rem;
+    margin-top: 0;
     max-width: 50%;
   }
   .project-overview:nth-child(even) .project-overview__description {
@@ -289,16 +289,16 @@ a.site-header__logo-link:hover {
 }
 
 .project-overview__image-box a[target="_blank"]::after {
-  position: absolute;
-  margin: 0.5rem 0 0 -2.5rem;
   background-color: white;
-  padding: .5rem .75rem;
   border-radius: 5px;
+  margin: 0.5rem 0 0 -2.5rem;
+  padding: .5rem .75rem;
+  position: absolute;
 }
 
 .image-box__img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .image-box__desc {
@@ -306,9 +306,9 @@ a.site-header__logo-link:hover {
 }
 
 .jump-to-top {
+  bottom: 0;
   position: absolute;
   right: 0;
-  bottom: 0;
 }
 
 @media screen and (min-width: 36rem) {
