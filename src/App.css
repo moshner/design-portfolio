@@ -335,3 +335,13 @@ a.site-header__logo-link:hover {
 .site-footer a {
   color: var(--inverse-text-color);
 }
+
+
+/* Temporarily removed button until I have more content ready */
+.project-overview__button {
+  display: none;
+}
+
+.project-overview__text {
+  margin-bottom: 2.5rem;
+}
