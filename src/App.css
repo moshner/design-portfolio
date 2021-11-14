@@ -185,7 +185,7 @@ a.site-header__logo-link:hover {
   line-height: 1.3em;
   font-size: 2em;
   width: 100%;
-  margin-top: .40rem;
+  margin-top: .35rem;
 }
 
 .project-overview:nth-of-type(even):after {
