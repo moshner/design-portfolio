@@ -5,7 +5,7 @@ TODO Checklist
 [X] A11y Automation
 [X] 16px font
 [X] color/brand
-[] point to mosherdesign.com
+[X] point to mosherdesign.com
 [X] dark mode support
 [] project template
 [X] back to top

@@ -1,4 +1,6 @@
-import type { ReportHandler } from 'web-vitals';
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import type {ReportHandler} from 'web-vitals';
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
