@@ -1,89 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Signika+Negative:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Signika+Negative:wght@300;400;600;700&display=swap");
 
 /* CSS Mini Reset http://www.vcarrer.com/2010/05/css-mini-reset.html */
-
-html, body, div, form, fieldset, legend, label
-{
- margin: 0;
- padding: 0;
+html, body, div, form, fieldset, legend, label {
+    margin: 0;
+    padding: 0;
 }
 
-table
-{
- border-collapse: collapse;
- border-spacing: 0;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-th, td
-{
- text-align: left;
- vertical-align: top;
+th, td {
+    text-align: left;
+    vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+h1, h2, h3, h4, h5, h6, th, td, caption {font-weight: normal;}
 
-img { border: 0; }
-
+img {border: 0;}
 
 /* Overall Styles */
-
 :root {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+
+    --primary: #4b2f86;
+    --secondary: #5ea8af;
+    --tertiary: #4b2f86;
+    --background: #fff;
+    --text-color: #24143d;
+    --inverse-text-color: #fff;
+    --text-link: #428086;
+    --xxx-small: 0.313rem;
+    --xx-small: 0.438rem;
+    --x-small: 0.563rem;
+    --small: 0.75rem;
+    --medium: 1rem;
+    --large: 1.313rem;
+    --x-large: 1.75rem;
+    --xx-large: 2.313rem;
+    --xxx-large: 3.125rem;
+    --xxxx-large: 4.188rem;
+    --xxxxx-large: 5.188rem;
 }
 
 body {
-  font-family: 'Signika Negative', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin: 1em;
+    font-family: "Signika Negative", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 1rem;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: "source-code-pro", "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 }
 
 p {
-  font-size: var(--medium);
-}
-
-/* Font sizes 5, 7, 9, 12, 16, 21, 28, 37, 50, 67, 83 https://www.lambdatest.com/blog/guide-to-css-variables-with-examples/ */
-* {
-  --xxx-small: .3125rem;
-  --xx-small: .4375rem;
-  --x-small: .5625rem;
-  --small: .75rem;
-  --medium: 1rem;
-  --large: 1.3125rem;
-  --x-large: 1.75rem;
-  --xx-large: 2.3125rem;
-  --xxx-large: 3.125rem;
-  --xxxx-large: 4.1875rem;
-  --xxxxx-large: 5.1875;
-}
-
-/* Colors */
-* {
-  --primary: #4b2f86;
-  --secondary: #5ea8af;
-  --tertiary: #4b2f86;
-  --background: #ffffff;
-  --text-color: #24143d;
-  --inverse-text-color: #ffffff;
-  --text-link: #428086;
+    font-size: var(--medium);
 }
 
 @media (prefers-color-scheme: dark) {
-  * {
-    --primary: #5ea8af;
-    --secondary: #8666C9;
-    --tertiary: #f89fba;
-    --background: #19161f;
-    --text-color: #adaaa7;
-    --text-link: #8e70CC;
-    --inverse-text-color: #0A0909;
-  }
+    * {
+        --primary: #5ea8af;
+        --secondary: #8666c9;
+        --tertiary: #f89fba;
+        --background: #19161f;
+        --text-color: #adaaa7;
+        --text-link: #8e70cc;
+        --inverse-text-color: #0a0909;
+    }
 }

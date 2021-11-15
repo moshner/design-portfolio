@@ -11,6 +11,8 @@ for FILE in $(exec git diff-index --check --cached HEAD -- | sed '/^[+-]/d' | se
     fi
 done
 
+npx stylelint "src/*.{css,scss,sass}"
+
 if [ $HAS_ERROR = true ]; then
     exit 1
 fi

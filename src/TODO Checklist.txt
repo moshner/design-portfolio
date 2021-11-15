@@ -1,6 +1,6 @@
 TODO Checklist
 
-[] CSS Lint
+[X] CSS Lint
 [X] JS Lint
 [X] A11y Automation
 [X] 16px font
@@ -10,5 +10,5 @@ TODO Checklist
 [] project template
 [X] back to top
 [X] Replace noscript with barebones verison of portfolio
-[] clean up compiler warnings
+[X] clean up compiler warnings
 [X] write new readme file

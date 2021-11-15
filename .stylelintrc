@@ -1,0 +1,10 @@
+{
+    "extends": "@chimericdream/stylelint",
+    "rules": {
+        'at-rule-property-requirelist': [
+            {
+                'font-face': ['font-family', 'font-style'],
+            }
+        ],
+    }
+}
