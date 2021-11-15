@@ -327,7 +327,7 @@ a.site-header__logo-link:hover {
 }
 
 /* Temporarily removed button until I have more content ready */
-div.project-overview__button {
+a.project-overview__button {
     display: none;
 }
 
