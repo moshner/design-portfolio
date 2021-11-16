@@ -54,7 +54,7 @@ const App: VFC = () => (
                             <p>
                                 This portfolio will highlight each stage of my design process.
                                 However, I understand that each project is unique and requires
-                                its own process customized to its individual needs. I hope to
+                                its own customized process. I hope to
                                 introduce you to my thoughts about each stage as well as provide
                                 an example artifact.
                             </p>
@@ -115,9 +115,9 @@ const App: VFC = () => (
                                 <p>
                                     Each of the 16 workshop curricula I employ typically
                                     last a day and are flexible and adaptable to the needs
-                                    of the business area. The workshops are based on the
-                                    work of leading futurist Bob Johansen&#39;s foresight
-                                    to insight to action cycle and help business and
+                                    of the business area. The workshops are based on
+                                    leading futurist Bob Johansen&#39;s foresight
+                                    to insight to action cycle. They help business and
                                     design teams determine:
                                 </p>
                                 <ol>
@@ -162,7 +162,7 @@ const App: VFC = () => (
                                     face to face interviews. All forms have their benefits.
                                 </p>
                                 <p>
-                                    Customer interviews are not usability tests.
+                                    User interviews are not usability tests.
                                     They are 1:1 conversations where the researcher
                                     can begin to understand users&#39; environment, needs,
                                     tasks, and more. It helps uncover issues that
@@ -170,18 +170,18 @@ const App: VFC = () => (
                                     in the development cycle, saving time and money.
                                 </p>
                                 <p>
-                                    I find the most productive time to run customer
+                                    I find the most productive time to run user
                                     interviews is the beginning of the project or
                                     when a product needs a good revamp. These interviews
                                     can produce  new insights and interesting product
                                     feature ideas, but only if the team understands
                                     the research. The best method for sharing information
                                     from interviews that I have found is to have
-                                    team members watch the interviews. Many times,
-                                    team members are not available for the actual
+                                    team members watch the interviews. However,
+                                    team members are often unavailable for the actual
                                     interviews. I have also found that most people,
                                     while well intentioned, do not find the time
-                                    to watch recorded sessions. I proactively schedule
+                                    to watch recorded sessions. To remedy this I proactively schedule
                                     debriefings with team members where I discuss
                                     my findings from and show footage of the interviews.
                                     This has been effective in building empathy for
@@ -250,7 +250,7 @@ const App: VFC = () => (
                             imgAlt="A very long workflow with 5 swim lanes and 47 steps"
                             imgSrc="./static/workflow-large.png"
                             imgLink="./static/workflow-map-v8.pdf"
-                            imgDesc="I displayed the workflow shown above outside my cube for over a year. This 12 foot long and is the simplified version of our education accreditation product. This incredibly complex application required this workflow map to even keep track of where we were in any given scenario or development task. The team found it so useful that I rolled it up and carried it, physically, into our agile sprint ceremonies for months. This particular version was the 8th major version and 14th minor update. A digital version continues lives on to this day and we update it as we add new features to the app."
+                            imgDesc="I displayed the workflow shown above outside my cube for over a year. This 12 foot long poster is the simplified version of our education accreditation product. This incredibly complex application required this workflow map to even keep track of where we were in any given scenario or development task. The team found it so useful that I rolled it up and carried it, physically, into our agile sprint ceremonies for months. This particular version was the 8th major version and 14th minor update. A digital version lives on to this day and we update it as we add new features to the app."
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -324,16 +324,16 @@ const App: VFC = () => (
                             imgAlt="A minor section of the full-site I.A."
                             imgSrc="./static/information-architecture.png"
                             imgLink="./static/Full-Site-Information-Architecture.pdf"
-                            imgDesc="In the screenshot above you can see a section of that massive I.A. as displayed in excel. Product teams used this to ensure their pieces all interacted successfully with the rest of the site."
+                            imgDesc="The screenshot above is a section of aafp.org's massive I.A. as displayed in excel. Product teams used this to ensure their pieces all interacted successfully with the rest of the site."
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
                                 <p>
-                                    Information architecture is arguably the most vital
+                                    Information architecture (I.A.) is arguably the most vital
                                     part of a website&#39;s success. Without a good, intuitive
-                                    organization of your content your users will have to
-                                    rely on google or in-site search. This often leads
-                                    to frustration or worse, clicks onto other websites.
+                                    organization of your content, your users will have to
+                                    rely on Google or in-site search. This often leads
+                                    to frustration, or worse, clicks onto other websites.
                                     You need to speak your users&#39; language to make it easy
                                     for them to accomplish their tasks.
                                 </p>
@@ -375,7 +375,7 @@ const App: VFC = () => (
                             imgAlt="Image of a tree testing report from the sharepoint migration"
                             imgSrc="./static/tree-test-report.png"
                             imgLink="./static/Tree-Test-Sharepoint.pdf"
-                            imgDesc="In the screenshot above shows an example of the results report I delivered for a recent tree testing study we completed on our new staff intranet portal. This report took only a few hours to produce and gave the product owner useful feedback to move forward."
+                            imgDesc="The screenshot above shows an example of the results report I delivered for a recent tree testing study we completed on our new staff intranet portal. This report took only a few hours to produce and gave the product owner useful feedback to move forward."
                         >
                             <div>
                                 <h3>3 weeks Before Development</h3>
@@ -412,7 +412,7 @@ const App: VFC = () => (
                             linkText="More Wireframes"
                             imgAlt="Screenshot of a dashboard wireframe"
                             imgSrc="./static/wireframes.png"
-                            imgDesc="The above images are several screens from the CME Provider Dashboard in Axure RP. This application had over 30 iterations in just the wireframes."
+                            imgDesc="The above images are several screens from the CME Provider Dashboard in Axure RP. This application had over 30 iterations in the wireframes alone."
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
@@ -440,15 +440,16 @@ const App: VFC = () => (
                                     time if you have to throw them out.
                                 </p>
                                 <p>
-                                    I use a brainstorming method similar to the
-                                    one outlined in the book &quot;Design Sprint&quot; by
+                                    I use a brainstorming method like to the
+                                    one outlined in the book &quot;Sprint: How to Solve
+                                    Big Problems and Test New Ideas in Just Five Days&quot; by
                                     Jake Knapp. First, I collect all the notes and
                                     things I&#39;ve learned through the previous
                                     steps. It is important to take some time and
                                     make a checklist of important pieces, like business
                                     requirements, technology limitations, and user
                                     goals, that need to be in the application at this
-                                    time. I found that if I don&#39;t have a checklist
+                                    time. I found that if I don&#39;t have a checklist,
                                     I can overlook a fundamental part of the puzzle.
                                 </p>
                                 <p>
@@ -469,19 +470,19 @@ const App: VFC = () => (
                                     drafts, but great designs take time and multiple
                                     iterations to incubate. Once this draft is complete,
                                     I step away from it, usually for a day. However,
-                                    a walk in nature often does the trick. This allows
+                                    a walk-in nature often does the trick. This allows
                                     ideas to settle and gives me a bit more perspective.
                                 </p>
                                 <p>
                                     Next, I come back and refine the wireframes or
                                     re-design them completely. Sometimes I need a
-                                    few more drafts  before I feel like it can be
-                                    shown to another person.
+                                    few more drafts  before I feel like I can show
+                                    it to another person.
                                 </p>
                                 <p>
                                     Next, I share the wireframes with stakeholders
-                                    one at a time. I find that 1:1 feedback is very
-                                    helpful to elicit multiple opinions and perspectives,
+                                    individually. I find that 1:1 feedback helps
+                                    to elicit multiple opinions and perspectives,
                                     rather than a single consensus opinion that a group
                                     meeting can generate. . I start by meeting with the
                                     technical people like developers or QA specialists.
@@ -491,14 +492,14 @@ const App: VFC = () => (
                                     that isn&#39;t technically possible, this step can
                                     save us some heartache later in the project. After
                                     that, I will show it to businesspeople for feedback
-                                    and to check to make sure all of the requirements
+                                    and to check to make sure all the requirements
                                     are accounted for.
                                 </p>
                                 <p>
-                                    Often these meetings require me to make additional
+                                    These meetings often require me to make additional
                                     adjustments the wireframes. While I am still meeting
                                     with stakeholders, I also prepare the wireframes to
-                                    be shown to our customers in the first round of usability testing.
+                                    be shown to our users in the first round of usability testing.
                                 </p>
                             </div>
                         </ProjectOverviewCard>
@@ -511,7 +512,7 @@ const App: VFC = () => (
                             imgAlt="Image of text inside the pdf that is linked."
                             imgSrc="./static/usability-report1.png"
                             imgLink="./static/usability-report1.pdf"
-                            imgDesc="Above you can see one of my full reports generated through the usability testing process. These reports always go through a standard template so that they are easier to read."
+                            imgDesc="The above image depicts one of my full reports generated through the usability testing process. These reports always go through a standard template so that they are easier to read."
                         >
                             <div>
                                 <h3>2 weeks Before Development</h3>
@@ -519,44 +520,40 @@ const App: VFC = () => (
                                     Usability testing is the heart and soul of User
                                     Experience Design. Without it we are only doing
                                     design work. Without it we have no grounding.
-                                    Without it we don&#39;t understand how to truly serve our customers.
+                                    Without it we don&#39;t understand how to truly serve our users.
                                 </p>
                                 <p>
                                     In usability testing we bring our designs to the
-                                    real world and see how they perform. You need to
-                                    see how and if people use your application. Using
-                                    tools like UserZoom allow designs to be tested
-                                    remotely without incurring huge expenses for travel.
-                                    It is vital to meet with users of your future
-                                    application 1:1 for these usability tests. It is
-                                    also helpful to have members of your team involved
-                                    in watching this round of usability tests.
+                                    real world and see how and if people use your application.
+                                    Tools like UserZoom allow remote testing of designs
+                                    without incurring travel expenses.
+                                    It is vital to meet 1:1 with study participants and
+                                    helpful to have members of your team watch the tests.
                                 </p>
                                 <p>
                                     By doing several rounds of usability testing,
                                     I can test with fewer people and get responses
                                     quickly. For this first round, test participants
-                                    use a rough wireframe of our application. For
-                                    that reason, there may be bugs and prototype
-                                    issues that take a little bit of skill to navigate.
+                                    use a rough wireframe of our application. There may be bugs and prototype
+                                    issues that take a little bit of skill to navigate, so
                                     I advise teams not to get discouraged. We learn a
                                     lot about the designed solution even in this rough, buggy state.
                                 </p>
                                 <p>
-                                    I like to ask users to try and complete realistic
+                                    I ask users to complete realistic
                                     tasks on these wireframes. These tasks are taken
                                     from the use cases provided by the business and
-                                    the user interviews performed previously in the
-                                    project. It is vital to my process to pick the
-                                    top 3-5 tasks only. Yes, there are likely to be
-                                    lots of other things that we want people to do
-                                    on the application, but by focusing on the top
-                                    tasks we can make sure the application works
-                                    very well for the most important items first.
+                                    the previously performed user interviews.
+                                    It is vital to my process to pick the
+                                    top 3-5 tasks only. Yes, there are usually many
+                                    additional tasks we want people to complete
+                                    on the application, but focusing on the top
+                                    tasks ensures the application will work
+                                    well for the most important items first.
                                 </p>
                                 <p>
                                     Participants are given a short scenario like
-                                    &quot;You are planning a weekend trip but you
+                                    &quot;You are planning a weekend trip, but you
                                     don&#39;t want to add additional miles to your
                                     car. Please show me how you would book a rental
                                     car for your weekend trip. You plan on leaving
@@ -576,13 +573,13 @@ const App: VFC = () => (
                                     test has the greatest possible impact on the team.
                                 </p>
                                 <p>
-                                    Next must perform a deeper analysis of the usability
+                                    Next, I must perform a deeper analysis of the usability
                                     test findings.  I try to get this  final report out
                                     by the end of the next week so that the design process
-                                    maintains momentum. However, I have found that it is
+                                    maintains momentum. I have found that it is
                                     important to future designers and product teams to
                                     finish a full report. Not many people read these
-                                    reports initially, but when we must review the
+                                    reports initially, but when we must review an
                                     application it is helpful to have a full report on hand.
                                 </p>
                             </div>
@@ -595,16 +592,16 @@ const App: VFC = () => (
                             linkText="More Design Sprint Examples"
                             imgAlt="A wide shot of a wall full of notes taped to the wall. On the right of the image is a group of dedicated design sprinters working on the next phase of the sprint."
                             imgSrc="./static/design-sprint.jpg"
-                            imgDesc="In the screenshot above you can see one of the collaborative session of the design sprint week. You can see we put up on the wall all of the artifacts that have been generated throughout thew week. This allows us to keep a working memory for reference."
+                            imgDesc="The photograph shows one of the collaborative sessions of the design sprint week. We fixed all of the artifacts we generated throughout thew week to the wall. This allows us to keep a working memory for reference."
                         >
                             <div>
                                 <h3>1-2 weeks Before Development</h3>
                                 <p>
-                                    I want to take a minute away from the large
-                                    process to discuss a great tool that I&#39;ve
-                                    utilized to condense the months of design work
-                                    I described above&mdash;from workflow to usability&mdash;into
-                                    just one week! This tool is called a &#39;design sprint&#39;
+                                    I want to bring up a technique that I&#39;ve
+                                    used to condense the months of design work
+                                    I described above&mdash;from workflow to usability,
+                                    building and testing a prototype &mdash;into
+                                    just one week. This technique is called a &#39;design sprint&#39;
                                     and I helped the AAFP become one of the first organizations
                                     to use the design sprint methodology to achieve these rapid results.
                                 </p>
@@ -640,10 +637,10 @@ const App: VFC = () => (
                             linkText="More Design"
                             imgAlt="A screenshot of a design of the new contact us page on aafp.org"
                             imgSrc="./static/Contact-Us-Design.png"
-                            imgDesc="In the above screenshot you can see how I implemented a design of a contact us page. This was created in Axure RP. All links were clickable and the tabs at the bottom of the screenshot all had the appropriate content."
+                            imgDesc="In the above screenshot you can see how I implemented a design of a 'contact us' page. This was created in Axure RP. All links were clickable and the tabs at the bottom of the screenshot all had the appropriate content."
                         >
                             <div>
-                                <h3>2 weeks Before Development</h3>
+                                <h3>2 Weeks Before Development</h3>
                                 <p>
                                     After a wireframe or prototype has been tested
                                     and confirmed to work in the real world, it is
@@ -653,9 +650,9 @@ const App: VFC = () => (
                                     more time designing the interactions instead
                                     of the color of the buttons. Visual designs are
                                     more than just coloring in the wireframes.
-                                    Designers must understand all of the research,
+                                    Designers must understand all the research,
                                     design, business requirements, and technical needs
-                                    of the project in order to come up with the right
+                                    of the project in order to create the right
                                     design for the application.
                                 </p>
                                 <p>
@@ -673,8 +670,8 @@ const App: VFC = () => (
                                 <p>
                                     A good visual design helps the development team,
                                     business team, and even marketing teams get a
-                                    very good preview of the working application.
-                                    It is also extremely useful for the next round
+                                    good preview of the working application.
+                                    It is also useful for the next round
                                     of usability testing.
                                 </p>
                             </div>
@@ -687,17 +684,17 @@ const App: VFC = () => (
                             linkText="More usability"
                             imgAlt="Picture of a usability test where the participant sits beside the faciliator while their screen is being projected on a screen for observers to watch."
                             imgSrc="./static/usability2.jpg"
-                            imgDesc="Here I am facilitating an in-person usability test at one of our regular on-site events. We were able to do three to four of these a year before the pandmic happened."
+                            imgDesc="Here I am facilitating an in-person usability test at one of our regular on-site events. We were able to do three to four of these a year before the pandemic."
                         >
                             <div>
-                                <h3>1 weeks Before Development</h3>
+                                <h3>1 Weeks Before Development</h3>
                                 <p>
                                     Running a second round of usability testing at
-                                    this point helps teams get a little bit deeper
+                                    this point helps teams get deeper
                                     into the application with users. Now that there
                                     is a visual design to test it is likely that users
-                                    can get further into the process than before. More
-                                    than that, there are likely several changes that
+                                    can get further into the process than before.
+                                    Additionally, there are likely several changes that
                                     have been made from the wireframes to the visual
                                     design. It is helpful to get another round of
                                     testing at this point to look for further problems and opportunities.
@@ -705,9 +702,8 @@ const App: VFC = () => (
                                 <p>
                                     I insist on testing the top three tasks during
                                     this usability test as well. It is okay to add
-                                    in a few other tasks to check their usability too.
-                                    By continuing to focus on the most important tasks
-                                    for users we ensure we aren&#39;t losing sight of
+                                    in a few other tasks, but by continuing to focus
+                                    on the most important tasks we ensure we aren&#39;t losing sight of
                                     main goals. Additionally, we can begin to measure
                                     improvements of the application from test to test.
                                 </p>
@@ -721,30 +717,29 @@ const App: VFC = () => (
                             linkText="More Specs"
                             imgAlt="A screenshot of a visual design with design specifications built in."
                             imgSrc="./static/design-specs.png"
-                            imgDesc="The screenshot above provides an example of design specs that I used in the major redesign of 2020. We needed to document the changes to the visual design as we converted technial systems and design design systems."
+                            imgDesc="The screenshot above provides an example of design specs that I used in the major aafp.org redesign of 2020. We needed to document the changes to the visual design as we converted technical systems and design systems."
                         >
                             <div>
                                 <h3>0 Days Before Development</h3>
                                 <p>
-                                    By now you have a really good idea where the
+                                    By now we have a really good idea where the
                                     design is going and how to solve the initial
                                     problems of the application. It is almost time
                                     to deliver it to the development teams. However,
                                     just dropping off a design to the team can lead
-                                    to a lot of miscommunications, dropped features,
+                                    to miscommunications, dropped features,
                                     or poor implementation. A design specification
                                     document helps transition the design into the
-                                    hands of the development team. Design specs
-                                    ensure a more accurate interpretation of the
-                                    design into code. They help transition the project
-                                    to a development team regardless of the process being used.
+                                    hands of the development team, regardless of the
+                                    process being used, and enables a more accurate
+                                    interpretation of the design into code.
                                 </p>
                                 <p>
-                                    I create development spec documents that define
+                                    I create design spec documents that define
                                     components, list out the business requirements,
                                     and detail specific interactions. Providing this
                                     information reduces questions from the development
-                                    team. When I worked as a developer I found spec
+                                    team. When I worked as a developer, I found spec
                                     documents useful because when my requirements were
                                     integrated within the designs, I didn&#39;t have
                                     to refer to multiple places to find them.
@@ -760,7 +755,7 @@ const App: VFC = () => (
                             imgAlt="An image of text that can be read in detail when clicking the link"
                             imgSrc="./static/usability-report3.png"
                             imgLink="./static/usability-report3.pdf"
-                            imgDesc="This screenshot is page one of our newest usability testing template. We moved to EnjoyHQ so that we can take advantage of some better integration and sharability. This product owner provided a list of questions before the usability test that we tried to answer in the test. Click for the full report example."
+                            imgDesc="This screenshot is page one of our newest usability testing template. We moved to EnjoyHQ so that we can take advantage of some better integration and share-ability. This product owner provided a list of questions before the usability test that we tried to answer in the test. Click for the full report example."
                         >
                             <div>
                                 <h3>2-3 Sprints Into Development</h3>
@@ -775,14 +770,14 @@ const App: VFC = () => (
                                     since the last round of usability testing.
                                 </p>
                                 <p>
-                                    This round of usability testing will involve 5-7
-                                    participants and bring the total number of usability
-                                    participants to a total of around 15-20 participants
-                                    on the application since the beginning of the project.
+                                    This round of usability testing involves 5-7
+                                    participants and brings the number of usability
+                                    participants on the application since the beginning
+                                    of the project to a total of around 15-20.
                                     This means that we have had time to fix the top
                                     issues discovered in the tests, validate they have
-                                    been solved, and discover another round of issues.
-                                    This sets the application up for the best possible success.
+                                    been solved, and discover another round of issues,
+                                    setting the application up for success.
                                 </p>
                             </div>
                         </ProjectOverviewCard>
@@ -794,13 +789,13 @@ const App: VFC = () => (
                             linkText="More Support"
                             imgAlt="Screenshot of different states that a form label group can go through"
                             imgSrc="./static/design-support.png"
-                            imgDesc="In the screenshot above I layed out the various states of a form field. These sorts of in-depth designs are frequently needed during the design support phase. It helps communicate my full intentions for the design."
+                            imgDesc="In the screenshot above I laid out the various states of a form field. These sorts of in-depth designs are frequently needed during the design support phase. It helps communicate my full intentions for the design."
                         >
                             <div>
                                 <h3>All Throughout Development</h3>
                                 <p>
-                                    After the design is handed over to the development
-                                    team for implementation it is helpful to provide
+                                    After we hand the design to the development
+                                    team for implementation, it is helpful to provide
                                     support. By this point in the process, the design
                                     team members are experts about the application.
                                     They can quickly answer questions without having
@@ -831,26 +826,26 @@ const App: VFC = () => (
                             imgAlt="Image of the SUS and SUM scores as reported for the last two benchmark tests of aafp.org"
                             imgSrc="./static/aafp-benchmark-2021.png"
                             imgLink="./static/aafp-benchmark-2021.pdf"
-                            imgDesc="In the above screenshot you can see the relative health of aafp.org compared from 2020-2021. The full report (linked from the image) shows item-by-item the top tasks and how they performed from year to year."
+                            imgDesc="The above screenshot depicts the relative health of aafp.org compared from 2020-2021. The full report (linked from the image) shows item-by-item the top tasks and how they performed from year to year."
                         >
                             <div>
                                 <h3>After Launch and Yearly</h3>
                                 <p>
-                                    Benchmark usability metric are important because
-                                    as applications change over time. Not only are
-                                    there often technology updates but customers&#39;
+                                    Benchmark usability metrics are important because
+                                    applications change over time. Not only are
+                                    there often technology updates, but customers&#39;
                                     perceptions change over time. Imagine an application
                                     written before the iPhone existed. Even if it was
                                     the best, most usable application of it&#39;s
-                                    time it won&#39;t be viewed as such today. For
+                                    time, it won&#39;t be viewed as such today. For
                                     this reason, we need to keep an eye on the perceived
                                     usability of the application over time.
                                 </p>
                                 <p>
-                                    Usability testing can offer much more than just
+                                    Usability testing can offer much more than
                                     qualitative insights. There are several quantitative
                                     measures such as the SUM, SUS, SUPR-Q, and others
-                                    that can provide valuable insights to the health
+                                    that can provide valuable insights about the health
                                     of an application. Benchmark usability tests should
                                     be run with an unmoderated tool such as UserZoom.
                                     These tests also need to have about 20 participants
@@ -867,7 +862,7 @@ const App: VFC = () => (
                                     AAFP in 2019 and we have been running them on
                                     our top applications since 2020. These metrics
                                     have provided our business owners with valuable
-                                    information about the health of their application.
+                                    information about the health of their applications.
                                 </p>
                             </div>
                         </ProjectOverviewCard>
