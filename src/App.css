@@ -47,6 +47,22 @@ h3 {
     display: flex;
     margin: -1rem -1rem var(--small);
     padding: var(--small) var(--large) var(--xxx-small);
+    height: 3.25rem;
+}
+
+.site-header a.site-header__logo-link {
+    background-color: rgba(75, 47, 134, 0.7);
+    border-radius: 0;
+    padding: 2.5rem 0.5rem 1rem;
+    margin: -1rem 0 0;
+    font-weight: 500;
+    height: 5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .site-header a.site-header__logo-link {
+        background-color: rgba(248, 159, 186, 0.7);
+    }
 }
 
 .site-header__logo {
